@@ -1,0 +1,12 @@
+[package]
+name = "fontoid"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+ttf-parser = "0.24.0"
+base64 = "0.22.1"
+xmlwriter = "0.1.0"
+tiny-skia-path = "0.11.4"
